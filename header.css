@@ -1,0 +1,38 @@
+header img {
+    width: 400px;
+    height: 70px;
+    
+}
+
+header img :hover{
+    filter: invert(1);
+}
+
+header{
+    display: flex;
+    align-items: center;
+    column-gap: 400px;
+    
+
+}
+li {
+    list-style: none;
+    
+    
+}
+
+a {
+    color: antiquewhite;
+    font-weight: bold;
+    padding: 7px;
+    text-decoration: none;
+    transition: background-color 0.3s, border-radius 0.3s;
+    
+}
+li :hover {
+    text-decoration: none;
+    color: antiquewhite;
+    border-radius: 20px 20px 20px 20px;
+    background-color: #CC0000;
+    
+}
